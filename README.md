@@ -1,44 +1,32 @@
-# vue3
+# softwebsite-fe
+小軟理財網前端
 
-This template should help get you started developing with Vue 3 in Vite.
+可以搜尋台灣上市股票、ETF即時股價資訊
 
-## Recommended IDE Setup
+call 後端 softwebsite-be 的 api
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Tech Stack
+- language: node v16.16.0
+- framework: vue3
+- build tool: vite
+- http request: axios
+- lint: eslint
 
-## Customize configuration
+# Project Setup
+### set env var
+    cp .env.example .env
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-
-```sh
-cp .env.example .env
-```
-
-
-```sh
-npm install
-```
+### npm install
+    npm install
 
 ### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
+    npm run dev
 
 ### Compile and Minify for Production
-
-```sh
-npm run build
-```
+    npm run build
 
 ### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+    npm run lint
 
 ### icon font 
 https://fontawesome.com/icons
