@@ -36,7 +36,7 @@ const submitstockSymbolArray = async () => {
 
 // 上方刪除按鈕 判斷stocksData checkBoxStatus
 const removeStock = () => {
-    let t = stocksData.value.filter(ele => ele.checkBoxStatus === false)
+    let t = stocksData.value.filter(ele => ele.checkBoxStatus !== true)
     console.log(11, t)
     stocksData.value = t
     headerCheckBoxStatus.value = false
